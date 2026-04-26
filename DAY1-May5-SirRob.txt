@@ -172,10 +172,10 @@ config t
 ip routing
 ip dhcp pool CAMERA6
 host 10.81.50.6 255.255.255.0
-client-identifier 001a.0706.c2fe
+client-identifier 001a.070a.bf71
 ip dhcp pool CAMERA8
 host 10.81.50.8 255.255.255.0
-client-identifier 001a.0709.4929 
+client-identifier 001a.070b.4722
 end
 show ip dhcp binding
 
@@ -250,7 +250,7 @@ ephone-dn 8
 ephone-dn 10
  number 8198
 Ephone 1
-  Mac-address 204c.9e6c.e263
+  Mac-address ccd8.c1fb.1e61
   type 8945
   button 1:8 2:7 3:6 4:5
   restart
